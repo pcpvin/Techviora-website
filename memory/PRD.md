@@ -46,41 +46,49 @@ Build a professional website for Techviora company showcasing their product deve
    - Hover animations
    - Highlight card
 
-4. **Pricing Section**
+4. **AI-Powered Section** ⭐ NEW
+   - 60% faster development highlight
+   - 40% cost reduction showcase
+   - 10x productivity with smart code generation
+   - 6 AI tools grid (Code Assistants, Automated Testing, Smart Design, etc.)
+   - Compelling value proposition for cost-conscious clients
+   - Animated stats and hover effects
+
+5. **Pricing Section**
    - Starter MVP package (₹1.5L - ₹2L)
    - Growth MVP package (₹2.5L - ₹4L)
    - Feature comparison
    - WhatsApp CTA integration
 
-5. **Case Studies Section**
+6. **Case Studies Section**
    - 3 success stories
    - Result highlights
    - Metric badges
    - Card hover effects
 
-6. **How We Work Section**
+7. **How We Work Section**
    - 4-step process visualization
    - Alternating layout
    - Icon-based step indicators
    - Detailed descriptions
 
-7. **Why Techviora Section**
+8. **Why Techviora Section**
    - 5 differentiators
    - Icon-based cards
    - Partner messaging
 
-8. **What We Build Section**
+9. **What We Build Section**
    - 6 service categories
    - Technology showcase
    - Grid layout
 
-9. **Final CTA Section**
+10. **Final CTA Section**
    - Multiple contact options
    - WhatsApp quick link
    - Email display
    - Microcopy tags
 
-10. **Footer**
+11. **Footer**
     - Brand information
     - Quick links
     - Contact information
