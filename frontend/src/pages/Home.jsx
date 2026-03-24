@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from '../components/Header';
 import { HeroSection } from '../components/HeroSection';
 import { WhatWeDo } from '../components/WhatWeDo';
+import { SearchIntentContent } from '../components/SearchIntentContent';
 import { AIPoweredSection } from '../components/AIPoweredSection';
 import { PricingSection } from '../components/PricingSection';
 import { CaseStudies } from '../components/CaseStudies';
@@ -17,6 +18,7 @@ const Home = () => {
       <Header />
       <HeroSection />
       <WhatWeDo />
+      <SearchIntentContent />
       <AIPoweredSection />
       <PricingSection />
       <CaseStudies />
