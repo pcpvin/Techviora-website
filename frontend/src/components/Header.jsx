@@ -68,6 +68,12 @@ export const Header = () => {
               Process
             </button>
             <a 
+              href="/gulf"
+              className="text-gray-300 hover:text-lime-400 transition-colors duration-200 font-medium flex items-center gap-1"
+            >
+              <span>🌍</span> GCC
+            </a>
+            <a 
               href="https://wa.me/917049006555"
               target="_blank"
               rel="noopener noreferrer"
@@ -114,6 +120,12 @@ export const Header = () => {
             >
               Process
             </button>
+            <a 
+              href="/gulf"
+              className="block w-full text-left px-4 py-2 text-gray-300 hover:text-lime-400 hover:bg-lime-500/10 transition-all duration-200"
+            >
+              🌍 GCC Region
+            </a>
             <div className="px-4 pt-2">
               <a 
                 href="https://wa.me/917049006555"

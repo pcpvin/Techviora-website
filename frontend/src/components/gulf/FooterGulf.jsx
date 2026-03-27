@@ -121,8 +121,31 @@ export const FooterGulf = () => {
             </div>
           </div>
 
+          {/* Gulf Region Image Section */}
+          <div className="py-12 border-t border-lime-500/20 border-b border-lime-500/20">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+              <div className="relative">
+                <div className="absolute inset-0 bg-lime-500/10 blur-2xl rounded-full"></div>
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_techviora-mvp/artifacts/msr7syp2_f39d2ed90717ebc30ed74cd92139ce0d.svg" 
+                  alt="GCC Region Coverage - UAE, Saudi Arabia, Qatar" 
+                  className="h-32 w-auto relative z-10 opacity-90 hover:opacity-100 transition-opacity duration-300"
+                  style={{ filter: 'drop-shadow(0 0 20px rgba(163, 230, 53, 0.3))' }}
+                />
+              </div>
+              <div className="text-center md:text-left">
+                <h3 className="text-2xl font-bold text-white mb-2">
+                  Serving the <span className="text-lime-400">Gulf Region</span>
+                </h3>
+                <p className="text-gray-400 max-w-md">
+                  Empowering startups and businesses across UAE, Saudi Arabia, Qatar, and the entire GCC with cutting-edge digital solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* SEO Footer Text */}
-          <div className="py-8 border-t border-lime-500/20">
+          <div className="py-8">
             <p className="text-sm text-gray-500 leading-relaxed text-center max-w-4xl mx-auto mb-6">
               <span className="text-lime-400 font-semibold">Techviora</span> is a leading MVP and product development company serving businesses across Dubai, UAE, Saudi Arabia, Qatar, and the GCC region. We specialize in rapid product development, mobile app creation, AI-powered solutions, and scalable backend systems. Our AI-assisted development approach reduces costs and delivers market-ready products in 30-60 days across the Middle East.
             </p>
