@@ -26,6 +26,8 @@ Build a professional website for Techviora company showcasing their product deve
 **Date**: December 2024
 
 ### Completed Features:
+
+#### **India/Gurugram Version** (Main Homepage - `/`)
 1. **Header Component**
    - Fixed navigation with scroll effect
    - Mobile-responsive menu
@@ -102,6 +104,31 @@ Build a professional website for Techviora company showcasing their product deve
     - Quick links
     - Contact information
     - Social media placeholders
+
+#### **Gulf/Dubai Version** (New Page - `/gulf` or `/dubai`) ⭐ NEW
+11. **Gulf-Specific Hero Section**
+    - SEO-optimized H1: "MVP & Product Development Company in Dubai"
+    - Geo-targeting: UAE, Saudi Arabia, Qatar & GCC
+    - Trust badge with Gulf region coverage
+    - Stats optimized for GCC market
+
+12. **Gulf What We Do Section**
+    - Complete digital products messaging
+    - 6 service offerings with GCC context
+    - Regional business focus
+
+13. **Gulf Core Offer Section**
+    - 3 productized services:
+      - MVP Development
+      - Growth Product Development  
+      - AI-Powered Product Development
+    - Flexible engagement models messaging
+    - Popular badge on Growth package
+
+14. **Gulf Footer**
+    - GCC locations: Dubai, Abu Dhabi, Riyadh, Doha
+    - Regional SEO optimization
+    - "Delivering excellence across the Middle East"
 
 ### Design Implementation:
 - ✅ Lime-green (#a3e635) primary color
