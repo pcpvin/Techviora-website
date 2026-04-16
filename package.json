@@ -1,0 +1,11 @@
+{
+  "name": "techviora-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static marketing site (React SPA). Deploy contents of frontend/dist.",
+  "scripts": {
+    "postinstall": "npm install --prefix frontend --legacy-peer-deps",
+    "build": "npm run build --prefix frontend",
+    "start": "npm run start --prefix frontend"
+  }
+}

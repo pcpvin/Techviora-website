@@ -1,6 +1,10 @@
 // craco.config.js
 const path = require("path");
-require("dotenv").config();
+try {
+  require("dotenv").config();
+} catch {
+  /* optional */
+}
 
 // Check if we're in development/preview mode (not production build)
 // Craco sets NODE_ENV=development for start, NODE_ENV=production for build
@@ -37,6 +41,14 @@ let webpackConfig = {
       '@': path.resolve(__dirname, 'src'),
     },
     configure: (webpackConfig) => {
+      // JS-only app: fork-ts-checker pulls an older ajv/schema-utils tree that
+      // breaks on newer Node/npm hoisting. Safe to drop when not using TypeScript.
+      webpackConfig.plugins = (webpackConfig.plugins || []).filter(
+        (plugin) =>
+          !plugin ||
+          !plugin.constructor ||
+          plugin.constructor.name !== "ForkTsCheckerWebpackPlugin",
+      );
 
       // Add ignored patterns to reduce watched directories
         webpackConfig.watchOptions = {
