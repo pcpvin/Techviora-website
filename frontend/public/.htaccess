@@ -1,14 +1,9 @@
 # Techviora static SPA — Hostinger / Apache
-# Ensures client-side routes (e.g. /gulf) load index.html
-
-<IfModule mod_negotiation.c>
-  Options -MultiViews
-</IfModule>
+# Minimal rules: shared hosts often return 403 if .htaccess uses
+# "Options" or "Header" without the right AllowOverride (Options/FileInfo).
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  # Site in domain root (public_html). If you deploy in a subfolder, set:
-  # RewriteBase /your-subfolder/
   RewriteBase /
 
   RewriteRule ^index\.html$ - [L]
@@ -17,12 +12,6 @@
   RewriteRule . /index.html [L]
 </IfModule>
 
-# Cache hashed static assets (CRA/webpack filenames include content hash)
-<IfModule mod_headers.c>
-  <FilesMatch "\.(js|css|woff2?|ttf|eot|svg|png|jpg|jpeg|gif|webp|ico)$">
-    Header set Cache-Control "public, max-age=31536000, immutable"
-  </FilesMatch>
-  <FilesMatch "^index\.html$">
-    Header set Cache-Control "no-cache, no-store, must-revalidate"
-  </FilesMatch>
-</IfModule>
+# If the site loads but /gulf breaks on refresh, mod_rewrite is off — contact Hostinger.
+# After the site works, you can try cache headers in hPanel → Advanced → Custom rules
+# instead of here, if you want long-lived caching for /static/*.
